@@ -1,0 +1,29 @@
+body {
+    
+    background-color: #f6e58d
+}
+
+#container {
+    margin: 10px  auto;
+    padding: 10px;
+    background-color: #f9ca24; 
+    width: 760px;
+    position: relative;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: sans-serif;
+    color: #30336b;
+}
+
+p {
+    padding: 5px;
+    background-color: #686de0;
+    font-size: 15px;
+}
+

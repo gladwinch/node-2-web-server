@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gladwin home</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <div id="container">
+            <header>
+            <h1>Hello Express!</h1>
+        </header>
+        <p>Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.</p>
+        <h2>Web Applications</h2>
+        <p>This is a built-in middleware function in Express. It parses incoming requests with JSON payloads and is based on body-parser.
+
+        Returns middleware that only parses JSON and only looks at requests where the Content-Type header matches the type option. This parser accepts any Unicode encoding of the body and supports automatic inflation of gzip and deflate encodings.
+
+        A new body object containing the parsed data is populated on the request object after the middleware (i.e. req.body), or an empty object ({}) if there was no body to parse, the Content-Type was not matched, or an error occurred.</p>
+            <h3>Render basic HTML view?
+        </h3>
+
+        <p>When this option is true, client errors such as a bad request or a request to a non-existent file will cause this middleware to simply call next() to invoke the next middleware in the stack. When false, these errors (even 404s), will invoke next(err).
+
+        Set this option to true so you can map multiple physical directories to the same web address or for routes to fill in non-existent files.
+
+        Use false if you have mounted this middleware at a path designed to be strictly a single file system directory, which allows for short-circuiting 404s for less overhead. This middleware will also reply to all methods.</p>
+        </div>
+
+
+
+    </body>
+</html>
